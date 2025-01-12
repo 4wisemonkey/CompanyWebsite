@@ -12,8 +12,8 @@ body{
   line-height: 1.5;  
 }
 body.wm-home{
-  background: #0E0C15;
   color: #FFFFFF;
+  background: url('res/images/main-bg.png') no-repeat 0 0/cover  #0E0C15;
 }
 a{
   text-decoration: none;
@@ -84,7 +84,6 @@ p{
 }
 
 .wm-home .main-wrapper{
-  background: url('res/images/main-bg.png') no-repeat 0 0/cover;
   height: 100%;
 }
 
