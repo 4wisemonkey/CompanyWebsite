@@ -20,6 +20,9 @@ a{
   color: #0E0C15;
   transition: all .3s linear;
 }
+a:hover{
+  color: #907CFF;
+}
 .wm-home a{
   color: #FFFFFF;
 }
@@ -48,6 +51,9 @@ h3{
 }
 p{
   line-height: 1.5;
+}
+p a{
+  text-decoration: underline;
 }
 .container{
   padding: 0 16px;
@@ -183,6 +189,10 @@ footer{
   padding-left: 24px;
   margin-bottom: 16px;
 }
+.wm-privacy-policy li a{
+  text-decoration: underline;
+}
+
 .wm-privacy-policy li:before {
   content: counters(item, ".") ". ";
   counter-increment: item;
@@ -190,10 +200,10 @@ footer{
   left: 0;
 }
 .wm-privacy-policy li li{
-  padding-left: 32px;
+  padding-left: 40px;
   margin-top: 16px;
 }
 .wm-privacy-policy li li li{
-  padding-left: 16px;
+  padding-left: 48px;
 }
-.wm-privacy-policy ul ul ul li:before{content: "● ";}
+/* .wm-privacy-policy ul ul ul li:before{content: "● ";} */
