@@ -205,5 +205,10 @@ footer{
 }
 .wm-privacy-policy li li li{
   padding-left: 48px;
+
 }
-/* .wm-privacy-policy ul ul ul li:before{content: "● ";} */
+.wm-privacy-policy ul ul ul.bulleting li{padding-left: 16px;}
+.wm-privacy-policy ul ul ul.bulleting li:before{content: "● ";}
+/* .wm-privacy-policy li li ul.bulleting li{
+  list-style: disc;
+} */
